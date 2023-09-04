@@ -3,6 +3,11 @@
 @import "main.css";
 @import "footer.css";
 
+:root {
+  --button-primary: rgb(255, 115, 0);
+  --button-hover: rgba(255, 115, 0, 0.8);
+}
+
 body {
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
@@ -11,7 +16,7 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -20,12 +25,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: bisque;
-  opacity: 1;
   z-index: 2;
 }
 
 @media screen and (max-width: 550px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }

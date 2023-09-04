@@ -24,9 +24,26 @@ footer {
   cursor: pointer;
 }
 
+@keyframes icon-moving {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px) scale(1.2);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .footer-icons__img {
   width: 30px;
   margin-bottom: 8px;
+}
+.footer-icons:hover {
+  animation: 1.5s icon-moving;
 }
 
 .footer-icons__desc {
