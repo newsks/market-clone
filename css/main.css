@@ -15,26 +15,26 @@ main {
   display: block;
   width: 100px;
   height: 100px;
-  background: url(/assets/list-img1.jpg) no-repeat;
+  background: url(../assets/list-img1.jpg) no-repeat;
   background-size: cover;
   border-radius: 15px;
   margin: 0 20px 15px;
 }
 
 .info-img2 {
-  background: url(/assets/list-img2.jpg) no-repeat;
+  background: url(../assets/list-img2.jpg) no-repeat;
   background-size: cover;
 }
 .info-img3 {
-  background: url(/assets/list-img3.jpg) no-repeat;
+  background: url(../assets/list-img3.jpg) no-repeat;
   background-size: cover;
 }
 .info-img4 {
-  background: url(/assets/list-img4.jpg) no-repeat;
+  background: url(../assets/list-img4.jpg) no-repeat;
   background-size: cover;
 }
 .info-img5 {
-  background: url(/assets/list-img5.jpg) no-repeat;
+  background: url(../assets/list-img5.jpg) no-repeat;
   background-size: cover;
 }
 
