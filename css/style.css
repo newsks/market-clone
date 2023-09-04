@@ -3,6 +3,11 @@
 @import "main.css";
 @import "footer.css";
 
+:root {
+  --button-primary: rgb(255, 115, 0);
+  --button-hover: rgba(255, 115, 0, 0.8);
+}
+
 body {
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
