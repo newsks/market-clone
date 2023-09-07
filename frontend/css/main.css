@@ -11,6 +11,12 @@ main {
   position: relative;
 }
 
+.items-list img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
 .items-list__img {
   display: block;
   width: 100px;
@@ -74,20 +80,23 @@ main {
 
 .btn-write {
   position: fixed;
-  width: 100px;
+  text-align: center;
+  width: 90px;
   bottom: 120px;
   right: 20px;
   padding: 15px 10px;
   border: none;
   background-color: var(--button-primary);
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  z-index: 3;
 }
 
 .btn-write:hover {
